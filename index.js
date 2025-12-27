@@ -595,7 +595,7 @@ bot.onText(/\/start/, async (msg) => {
 ( ☀ )このスクリプトをご購入いただきありがとうございます。このスクリプトを悪用しないでくださいね。    
 <blockquote>⬡═—⊱ STATUS BOT ⊰—═⬡</blockquote>
 ✧ ᴀᴜᴛʜᴏʀ : FanzzAmpaz
-✧ ᴠᴇʀsɪᴏɴ : 2.0
+✧ ᴠᴇʀsɪᴏɴ : 3.0
 ✧ ᴜsᴇʀɴᴀᴍᴇ : ${username}
 ✧ ᴜsᴇʀ ɪᴅ : ${userId}
 ✧ ᴘʀᴇᴍɪᴜᴍ : ${premiumStatus}
@@ -649,7 +649,7 @@ bot.on("callback_query", async (query) => {
       caption = `
 <blockquote>『ᴢᴏʀᴏ 𖠂 ʙᴜɢ』</blockquote>   
  𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲: ${username}
- 𝗩𝗲𝗿𝘀𝗶𝗼𝗻：2.0
+ 𝗩𝗲𝗿𝘀𝗶𝗼𝗻：3.0
  𝗥𝗲𝗮𝗹𝘁𝗶𝗺𝗲：${runtime}
 <blockquote>( ✘ )ɪɴᴠɪsɪʙʟᴇ</blockquote>
 ✧ /ZoroInvis
@@ -673,7 +673,7 @@ bot.on("callback_query", async (query) => {
       caption = `
 <blockquote>『ᴢᴏʀᴏ 𖠂 ᴛᴏᴏʟs』</blockquote>
  𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲: ${username}
- 𝗩𝗲𝗿𝘀𝗶𝗼𝗻：2.0
+ 𝗩𝗲𝗿𝘀𝗶𝗼𝗻：3.0
  𝗥𝗲𝗮𝗹𝘁𝗶𝗺𝗲：${runtime}
 <blockquote>[ 𝗧𝗢𝗢𝗦𝗟 𝗠𝗘𝗡𝗨 ]</blockquote>
 𖤐 ☇ /testfunction [ 𝚃𝚎𝚜𝚝 𝙵𝚞𝚗𝚌𝚝𝚒𝚘𝚗 ]  
@@ -719,7 +719,7 @@ bot.on("callback_query", async (query) => {
 if (query.data === "thanks_to") {
       caption = `      
 <blockquote>『ᴢᴏʀᴏ 𖠂 ᴛʜᴀɴᴋs』</blockquote> 𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲: ${username}
- 𝗩𝗲𝗿𝘀𝗶𝗼𝗻：2.0
+ 𝗩𝗲𝗿𝘀𝗶𝗼𝗻：3.0
  𝗥𝗲𝗮𝗹𝘁𝗶𝗺𝗲：${runtime}
 <blockquote>[ 𝗧𝗛𝗔𝗡𝗞𝗦 𝗧𝗢 ]</blockquote>
  Allah ☇ [ 𝘔𝘠 𝘎𝘖𝘋 ]
@@ -740,7 +740,7 @@ if (query.data === "thanks_to") {
       caption = `
 <blockquote>『ᴢᴏʀᴏ 𖠂 ᴏᴡɴᴇʀ』</blockquote>
  𝗨𝘀𝗲𝗿𝗻𝗮𝗺𝗲: ${username}
- 𝗩𝗲𝗿𝘀𝗶𝗼𝗻：2.0
+ 𝗩𝗲𝗿𝘀𝗶𝗼𝗻：3.0
  𝗥𝗲𝗮𝗹𝘁𝗶𝗺𝗲：${runtime}
 <blockquote>[ 𝗢𝗪𝗡𝗘𝗥 𝗠𝗘𝗡𝗨 ]</blockquote>
 𖤐 /addadmin [ Tambahin Admin ]
@@ -750,6 +750,7 @@ if (query.data === "thanks_to") {
 𖤐 /delprem [ Hapus Premium ]
 𖤐 /open [ Buka Grub ]
 𖤐 /close [ tutup Grub ]
+𖤐 /update [ Update ]
 <blockquote>『𝗦𝗘𝗟𝗟𝗘𝗖𝗧 𝗕𝗨𝗧𝗧𝗢𝗡𝗦』</blockquote>
 `;
       replyMarkup = { inline_keyboard: [[{ text: "KEMBALI", callback_data: "back" }]] };
@@ -761,7 +762,7 @@ if (query.data === "thanks_to") {
 ( ☀ )このスクリプトをご購入いただきありがとうございます。このスクリプトを悪用しないでくださいね。    
 <blockquote>⬡═—⊱ STATUS BOT ⊰—═⬡</blockquote>
 ✧ ᴀᴜᴛʜᴏʀ : FanzzAmpaz
-✧ ᴠᴇʀsɪᴏɴ : 2.0
+✧ ᴠᴇʀsɪᴏɴ : 3.0
 ✧ ᴜsᴇʀɴᴀᴍᴇ : ${username}
 ✧ ᴜsᴇʀ ɪᴅ : ${userId}
 ✧ ᴘʀᴇᴍɪᴜᴍ : ${premiumStatus}
