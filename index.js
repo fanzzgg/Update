@@ -1119,7 +1119,7 @@ async function startFileCreationProcess() {
 bot.onText(/\/update/, async (msg) => {
     const chatId = msg.chat.id;
 
-    const repoRaw = "https://raw.githubusercontent.com/fanzzgg/Auto/main/index.js";
+    const repoRaw = "https://raw.githubusercontent.com/fanzzgg/Update/main/index.js";
 
     bot.sendMessage(chatId, "⏳ Sedang mengecek update...");
 
